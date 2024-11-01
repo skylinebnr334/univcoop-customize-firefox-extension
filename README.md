@@ -1,0 +1,1 @@
+# univcoop-customize-firefox-extension
