@@ -7,7 +7,12 @@
   "author": "skylinebnr334 <168154498+skylinebnr334@users.noreply.github.com>",
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.8.6",
+    "@types/webextension-polyfill": "^0.12.1",
     "ts-loader": "^9.5.1",
-    "typescript": "^5.6.3"
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.3",
+    "webpack": "^5.96.0",
+    "webpack-cli": "^5.1.4"
   }
 }
