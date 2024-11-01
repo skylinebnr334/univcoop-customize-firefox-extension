@@ -1,0 +1,9 @@
+{
+  "name": "univcoop-customize-firefox-extension",
+  "version": "1.0.0",
+  "description": "univcoop-customize-firefox-extension",
+  "main": "index.js",
+  "repository": "git@github.com:skylinebnr334/univcoop-customize-firefox-extension.git",
+  "author": "skylinebnr334 <168154498+skylinebnr334@users.noreply.github.com>",
+  "license": "MIT"
+}
