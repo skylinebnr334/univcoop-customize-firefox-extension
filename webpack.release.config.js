@@ -7,7 +7,7 @@ module.exports = {
     mode: isDev ? 'development' : 'production',
     entry:
     {
-        "index": "./src/index_index.tsx",
+        "main_content_script_login_php": "./src/main_content_script_login_php.ts",
     },
     output: {
         path: path.resolve(__dirname, 'build'),
@@ -45,10 +45,6 @@ module.exports = {
         ]
     },
     plugins: isReleaseCheckSize ? [
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            filename: 'index.html'
-        }),
         new CopyWebpackPlugin(
             {
                 patterns: [
@@ -57,10 +53,6 @@ module.exports = {
             }
         ),
     ] : [
-        new HtmlWebpackPlugin({
-            template: './src/index.html',
-            filename: 'index.html'
-        }),
         new CopyWebpackPlugin(
             {
                 patterns: [

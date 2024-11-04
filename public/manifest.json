@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name":"univcoop-customize-firefox-extension",
+    "version":"1.0",
+    "content_scripts": [
+        {
+            "matches":[
+                "https://cm.univ.coop/mypage/login.ph*"
+            ],
+            "js":[
+                "main_content_script_login_php.bundle.js"
+            ]
+        }
+    ]
+}

@@ -19,5 +19,8 @@
   },
   "dependencies": {
     "cross-env": "^7.0.3"
+  },
+  "scripts": {
+    "build": "webpack -c webpack.release.config.js  --progress --color"
   }
 }
