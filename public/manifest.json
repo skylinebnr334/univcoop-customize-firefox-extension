@@ -10,14 +10,6 @@
             "js":[
                 "main_content_script_login_php.bundle.js"
             ]
-        },
-        {
-            "matches":[
-                "https://cm.univ.coop/mypage/self_charge.ph*"
-            ],
-            "js":[
-                "main_content_script_self_charge_php.bundle.js"
-            ]
         }
     ]
 }
