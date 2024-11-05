@@ -8,7 +8,7 @@ module.exports = {
     entry:
     {
         "main_content_script_login_php": "./src/main_content_script_login_php.ts",
-        "main_content_script_self_charge_php": "./src/main_content_script_self_charge_php.ts",
+        /*"main_content_script_self_charge_php": "./src/main_content_script_self_charge_php.ts",*/
     },
     output: {
         path: path.resolve(__dirname, 'build'),
