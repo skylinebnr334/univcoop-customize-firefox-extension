@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "name":"univcoop-customize-firefox-extension",
+    "name":"univcoop-customize-extension",
     "version":"1.0",
     "description":"firefox login",
     "content_scripts": [
